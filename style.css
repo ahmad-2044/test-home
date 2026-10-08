@@ -1,0 +1,36 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.container {
+    height: 100vh;
+    background-color: rgba(136, 146, 143, 0.158);
+
+}
+
+.navbar {
+    background-color: rgb(205, 212, 212);
+    display: flex;
+    gap: 18px;
+
+}
+
+.logo {
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+
+}
+
+.nav-ul {}
+
+.profile {
+    padding: 18px;
+}
