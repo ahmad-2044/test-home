@@ -14,23 +14,46 @@
     background-color: rgb(205, 212, 212);
     display: flex;
     gap: 18px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    height: 70px;
+}
+
+.logo img {
+    width: 50px;
+    border-radius: 50%;
 
 }
 
-.logo {
-    padding: 10px;
-}
-
-.nav {
+.nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 70px;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
 
 }
 
-.nav-ul {}
+.nav ul li {
+    font-size: 18px;
+    background-color: rgb(144, 189, 189);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.nav ul li:hover {
+    background-color: rgb(100, 192, 192);
+    color: white;
+    cursor: pointer;
+}
+
 
 .profile {
-    padding: 18px;
+    padding: 22px;
+
 }
